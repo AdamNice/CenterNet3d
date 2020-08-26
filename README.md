@@ -12,7 +12,7 @@ our proposed CenterNet3D achieves competitive performance with other one stage a
 Car AP(Average Precision)@0.70, 0.70, 0.70:
 bbox AP:90.65, 89.55, 88.85
 bev  AP:89.98, 87.99, 86.98
-3d   AP:89.02, 78.58, 77.64
+3d   AP:89.02, 79.11, 77.76
 aos  AP:90.63, 89.39, 88.62
 Car AP(Average Precision)@0.70, 0.50, 0.50:
 bbox AP:90.65, 89.55, 88.85
@@ -61,9 +61,9 @@ If you find this work useful in your research, please consider cite:
 ```
 
 ## Acknowledgement
-The code is devloped based on mmdetection3d, some part of codes are borrowed from SECOND and PointRCNN.
-*[mmdetection3d](https://github.com/open-mmlab/mmdetection3d) 
-*[mmdetection](https://github.com/open-mmlab/mmdetection) 
+The code is devloped based on mmdetection3d and mmdetecton, some part of codes are borrowed from SECOND and PointRCNN.  
+* [mmdetection3d](https://github.com/open-mmlab/mmdetection3d) 
+* [mmdetection](https://github.com/open-mmlab/mmdetection) 
 * [mmcv](https://github.com/open-mmlab/mmcv)
 * [second.pytorch](https://github.com/traveller59/second.pytorch)
 * [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
