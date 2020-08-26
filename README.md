@@ -22,7 +22,7 @@ aos  AP:90.63, 89.39, 88.62
 ```
 
 ## Demo
-[![Demo](https://github.com/skyhehe123/SA-SSD/blob/master/doc/hqdefault.jpg)](https://www.youtube.com/watch?v=jrAb3ts4tAs)
+[![Demo](https://github.com/wangguojun2018/CenterNet3d/blob/master/demo/example1.tif)](https://www.bilibili.com/video/BV1W541147gH/)
 
 # Introduction
 ![model](https://github.com/skyhehe123/SA-SSD/blob/master/doc/model.png)
