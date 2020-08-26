@@ -67,5 +67,3 @@ The code is devloped based on mmdetection3d, some part of codes are borrowed fro
 * [mmcv](https://github.com/open-mmlab/mmcv)
 * [second.pytorch](https://github.com/traveller59/second.pytorch)
 * [PointRCNN](https://github.com/sshaoshuai/PointRCNN)
-
-
