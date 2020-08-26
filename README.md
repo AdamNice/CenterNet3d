@@ -22,15 +22,15 @@ aos  AP:90.63, 89.39, 88.62
 ```
 
 ## Demo
-[![Demo](https://github.com/wangguojun2018/CenterNet3d/blob/master/demo/example1.tif)](https://www.bilibili.com/video/BV1W541147gH/)
+[![Demo](https://github.com/wangguojun2018/CenterNet3d/blob/master/demo/example1.png)](https://www.bilibili.com/video/BV1W541147gH/)
 
 # Introduction
-![model]()
+![model](https://github.com/wangguojun2018/CenterNet3d/blob/master/demo/Outline_of_CenterNet3D.png)  
 Accurate and fast 3D object detection from point clouds is a key task in autonomous driving. Existing one-stage 3D object detection methods can achieve real-time performance, however, they are dominated by anchor-based detectors which are inefficient and require additional post-processing. In this paper, we eliminate anchors and model an object as a single point the center point of its bounding box. Based on the center point, we propose an anchor-free CenterNet3D Network that performs 3D object detection without anchors. Our CenterNet3D uses keypoint estimation to find center points and directly regresses 3D bounding boxes. However, because inherent sparsity of point clouds, 3D object center points are likely to be in empty space which makes it difficult to estimate accurate boundary. To solve this issue, we propose an auxiliary corner attention module to enforce the CNN backbone to pay more attention to object boundaries which is effective to obtain more accurate bounding boxes. Besides, our CenterNet3D is Non-Maximum Suppression free which makes it more efficient and simpler. On the KITTI benchmark, our proposed CenterNet3D achieves competitive performance with other one stage anchor-based methods which show the efficacy of our proposed center point representation.  
 
 # Installation
 1. Clone this repository.
-2. Our CenterNet3D is based on [mmdetection3d](https://github.com/open-mmlab/mmdetection3d), Please check [INSTALL.md]() for installation instructions.
+2. Our CenterNet3D is based on [mmdetection3d](https://github.com/open-mmlab/mmdetection3d), Please check [INSTALL.md](https://github.com/wangguojun2018/CenterNet3d/blob/master/docs/install.md) for installation instructions.
 
 
 
