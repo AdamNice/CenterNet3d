@@ -3,6 +3,7 @@ Based on the center point, we propose an anchor-free CenterNet3D Network that pe
 Our CenterNet3D uses keypoint estimation to find center points and directly regresses 3D bounding boxes. 
 Besides, our CenterNet3D is Non-Maximum Suppression free which makes it more efficient and simpler. On the KITTI benchmark, 
 our proposed CenterNet3D achieves competitive performance with other one stage anchor-based methods.
+
 ## Updates
 2020-08-26: CenterNet3D V1.0 is released!
 
@@ -31,6 +32,15 @@ Accurate and fast 3D object detection from point clouds is a key task in autonom
 # Installation
 1. Clone this repository.
 2. Our CenterNet3D is based on [mmdetection3d](https://github.com/open-mmlab/mmdetection3d), Please check [INSTALL.md](https://github.com/wangguojun2018/CenterNet3d/blob/master/docs/install.md) for installation instructions.
+3. Build ```points_op```and ```pointnet2``` ops manually
+``` bash
+cd mmdet3d/ops/points_op
+python setup.py build_ext --inplace
+
+cd mmdet3d/ops/pointnet2
+python setup.py build_ext --inplace
+
+```
 
 
 
